@@ -1,0 +1,24 @@
+EXCLUDED (simulator crashed / incomplete): runs/lte_blk/seed_28
+                          lte_mean   lte_lo   lte_hi  wired_mean  wired_lo  wired_hi  ratio  ci_disjoint_lte_worse
+metric                                                                                                            
+M1_spurious_per_hour       582.458  541.220  627.900       0.000     0.000     0.000    NaN                   True
+M1a_late_ack_per_hour      581.196  540.389  626.609       0.000     0.000     0.000    NaN                   True
+M1b_ack_lost_per_hour        1.262    0.000    3.367       0.000     0.000     0.000    NaN                  False
+timeouts_per_hour          651.059  608.170  696.889      98.442    84.205   112.690  6.614                   True
+M2_slack_mean                0.832    0.609    1.168       1.339     1.333     1.346  0.621                  False
+M3_stall_fraction            0.091    0.082    0.100       0.002     0.001     0.002 58.048                   True
+M4_goodput_kbps           1033.714 1011.074 1055.014    2548.226  2489.542  2603.406  0.406                  False
+M5_rto_recovery_median_s     0.000    0.000    0.000         NaN       NaN       NaN    NaN                  False
+outage_time_frac             0.081    0.072    0.091       0.000     0.000     0.000    NaN                   True
+rtt_p99_over_min             8.435    8.117    8.779       3.424     3.339     3.506  2.464                   True
+M2_slack_mean[0-1s]          0.799    0.485    1.133         NaN       NaN       NaN    NaN                  False
+M2_slack_mean[1-3s]          0.441    0.259    0.601         NaN       NaN       NaN    NaN                  False
+M2_slack_mean[3-10s]         0.640    0.498    0.787         NaN       NaN       NaN    NaN                  False
+M2_slack_mean[in-outage]     1.991    0.371    4.386         NaN       NaN       NaN    NaN                  False
+{
+ "M1_spurious_rate: LTE>=2x control, CIs disjoint": false,
+ "M2_slack: LTE>=1.5x control, CIs disjoint": false,
+ "CLAIM_A_SUPPORTED": false,
+ "n_lte_runs": 29,
+ "n_wired_runs": 30
+}

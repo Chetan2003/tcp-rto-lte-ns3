@@ -1,0 +1,12 @@
+# raw simulation output (about 12 MB per run; regenerate with scratch/run_seeds.sh)
+runs/
+# generated documents and caches
+*.docx
+__pycache__/
+*.pyc
+venv/
+.venv/
+# ns-3 simulator side files
+*.pcap
+*.xml
+*.tr

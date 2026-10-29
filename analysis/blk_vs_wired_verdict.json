@@ -1,0 +1,7 @@
+{
+ "M1_spurious_rate: LTE>=2x control, CIs disjoint": true,
+ "M2_slack: LTE>=1.5x control, CIs disjoint": false,
+ "CLAIM_A_SUPPORTED": true,
+ "n_lte_runs": 29,
+ "n_wired_runs": 30
+}

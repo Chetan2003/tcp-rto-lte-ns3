@@ -1,0 +1,4 @@
+# Python analysis and plotting (the simulators themselves need ns-3.46, see README)
+numpy>=1.26
+pandas>=2.0
+matplotlib>=3.6
