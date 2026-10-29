@@ -121,8 +121,8 @@ This matches ns-3, which is distributed under GPL-2.0-only and which the simulat
 
 SPDX-License-Identifier: GPL-2.0-only
 
-Copyright (C) 2026 [author name(s)]
+Copyright (C) 2026 [Chetan Varma]
 
 ## Authors
 
-[Add names and contact details]
+[Chetan Varma dchetanv2003@gmail.com]
