@@ -121,4 +121,4 @@ the unit of analysis (30 seeds). The 2x / 1.5x thresholds are judgements, not de
 
 ## 11. Contact
 
-[Add the previous owner's name and email, and the supervisor's name]
+[Chetan Varma dchetanv2003@gmail.com]
